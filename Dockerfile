@@ -1,5 +1,5 @@
 # ── Stage 1: Build frontend (arch-independent static files) ──────────
-FROM --platform=$BUILDPLATFORM node:20-alpine AS frontend
+FROM --platform=$BUILDPLATFORM node:24.22.2-alpine AS frontend
 WORKDIR /app/web
 COPY web/package.json web/package-lock.json ./
 RUN npm ci --production=false
