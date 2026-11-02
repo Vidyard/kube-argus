@@ -7,7 +7,7 @@ Thanks for your interest in improving Kube-Argus! This guide will help you get s
 ### Prerequisites
 
 - Go 1.25+
-- Node.js 20+
+- Node.js 22+
 - Access to a Kubernetes cluster (Minikube, kind, or a real cluster via kubeconfig)
 - (Optional) Prometheus for metrics features
 
